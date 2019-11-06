@@ -6,6 +6,7 @@ body {
   	background: yellow;
   	width: 300px;
   	height: 300px;
+    margin-bottom: 20px;
   }
 
   .square {
@@ -20,9 +21,10 @@ body {
     &.green {
     	background: green;
     }
-
-    .animal {
-    	width: 80px;
-    	height: auto;
-    }
   }
+
+  .animal {
+    width: 100px;
+    height: auto;
+  }
+}
